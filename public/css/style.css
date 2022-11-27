@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'SFNS Display Thin';
+    src: url('../assets/fonts/sfns_display_thin.eot');
+    src: url('../assets/fonts/sfns_display_thin.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/sfns_display_thin.woff2') format('woff2'),
+        url('../assets/fonts/sfns_display_thin.woff') format('woff'),
+        url('../assets/fonts/sfns_display_thin.ttf') format('truetype'),
+        url('../assets/fonts/sfns_display_thin.svg#sfns_display_thin') format('svg');
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'SFNS Display Thin';
+    transition-duration: 0.3s;
+}
+
+.topnav a:hover {
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+.headerBlock {
+    font-family: 'SFNS Display Thin';
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-size: 2em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    vertical-align: middle;
+}
+
+.content .item-text {
+    text-align: center;    
+    font-family: 'SFNS Display Thin';    
+    color: #333;
+    font-size: 1.5em;
+    padding: 1.5em;
+    width: 20em;
+}
+
+.content .item-image {
+    text-align: center;
+}

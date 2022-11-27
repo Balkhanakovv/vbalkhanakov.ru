@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vovosch</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/style.css">
 </head>
 <body>
-    <div class="main_container">
-        <p class="greeting">Привет!</p>        
+    <div id="navPanel" class="topnav">
+        <a href="#">HOME</a>
+        <!--<a href="#">CONTACTS</a>-->
+    </div>
+
+    <div class="headerBlock">
+        <h1>Welcome to my page!</h1>
+        <p>Сейчас это пустой сайт.<br>Со временем он наполнится котентом, я надеюсь =)</p>
+        <p>А пока что ...</p>
+    </div>
+
+    <div class="content">
+        <div class="item-image">
+            <img src="./public/assets/img/C_sharp.svg" viewBox="0 0 100 100" alt="C# logo"/>
+        </div>
+        <div class="item-text">
+            <p>Вообще, .NET - мое основное направлние. Знаю как сам язык, так и фреймворки, с которыми он чаще всего используется. В частности EntityFramework и ASP.</p>
+        </div>
+    </div>
+
+    <hr/>
+
+    <div class="content">
+        <div class="item-text">
+            <p>Но последнее время пишу на JS/TS, в ближайшее время было бы не плохо освоить какой-нибудь фреймворк :P</p>
+        </div>
+        <div class="item-image">
+            <img src="./public/assets/img/js.svg" alt="js logo"/>
+        </div>
     </div>
 </body>
 </html>
