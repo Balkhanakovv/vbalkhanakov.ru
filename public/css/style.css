@@ -8,8 +8,10 @@
         url('../assets/fonts/sfns_display_thin.svg#sfns_display_thin') format('svg');
 }
 
-html, body {
+html,
+body {
     margin: 0;
+    font-size: 17px;
 }
 
 .topnav {
@@ -24,7 +26,6 @@ html, body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
     font-family: 'SFNS Display Thin';
     transition-duration: 0.3s;
 }
@@ -38,33 +39,87 @@ html, body {
     font-family: 'SFNS Display Thin';
     text-align: center;
     vertical-align: middle;
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
-    font-size: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 2.5em;
     background-color: #eee;
 }
 
 .content {
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    vertical-align: middle;
+    margin-top: 1em;
 }
 
-.content .item-text {
-    text-align: center;    
-    font-family: 'SFNS Display Thin';    
+.card {
+    margin: 2em;
+    max-width: 25%;
+    min-width: 300px;
+    height: 350px;
+    border-style: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px #ccc;
+    transition: 0.45s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    margin-top: 1em;
+    box-shadow: 0px 20px 20px #ccc;
+}
+
+.card .item-title {
+    text-align: center;
+    font-family: 'SFNS Display Thin';
     color: #333;
     font-size: 1.5em;
-    padding: 1.5em;
-    width: 20em;
+    font-weight: bolder;
 }
 
-.content .item-image {
+.card .item-image {
+    margin-top: 2em;
     text-align: center;
 }
 
-.footerContainer {
-    background-color: #aaa;
+.card .item-text {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'SFNS Display Thin';
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    height: 100%;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 1em;
+}
+
+.subtitle h3 {
+    font-family: 'SFNS Display Thin';
     color: #333;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.footerContainer {
+    background-color: #777;
+    color: #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerContainer .block {
+    font-family: 'SFNS Display Thin';
+    text-align: center;
+    opacity: 0.5;
+    margin: 1em;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
 }
