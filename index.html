@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,40 +8,75 @@
     <title>vovosch</title>
     <link rel="stylesheet" type="text/css" href="./public/css/style.css">
 </head>
+
 <body>
     <div id="navPanel" class="topnav">
-        <a href="#">HOME</a>
-        <!--<a href="#">CONTACTS</a>-->
+        <a href="#">Главная</a>
     </div>
 
     <div class="headerBlock">
         <h1>Welcome to my page!</h1>
-        <p>Сейчас это пустой сайт.<br>Со временем он наполнится котентом, я надеюсь =)</p>
+        <p>Сейчас это пустой сайт.<br>Со временем он наполнится контентом, я надеюсь =)</p>
         <p>А пока что ...</p>
     </div>
 
-    <div class="content">
-        <div class="item-image">
-            <img src="./public/assets/img/C_sharp.svg" viewBox="0 0 100 100" alt="C# logo"/>
-        </div>
-        <div class="item-text">
-            <p>Вообще, .NET - мое основное направлние. Знаю как сам язык, так и фреймворки, с которыми он чаще всего используется. В частности EntityFramework и ASP.</p>
-        </div>
+    <div class="subtitle">
+        <h3>Мои навыки</h3>
     </div>
 
-    <hr/>
-
     <div class="content">
-        <div class="item-text">
-            <p>Но последнее время пишу на JS/TS, в ближайшее время было бы не плохо освоить какой-нибудь фреймворк :P</p>
+        <div class="card">
+            <div class="item-image">
+                <img src="./public/assets/img/Csharp_Logo.png" width="100px" alt="C# logo"/>
+            </div>
+            <div class="item-text">
+                <p>.NET - мое основное направлние. Знаю как сам язык, так и фреймворки, с которыми он чаще всего используется. В частности EntityFramework и ASP.</p>
+            </div>
         </div>
-        <div class="item-image">
-            <img src="./public/assets/img/js.svg" alt="js logo"/>
+
+        <div class="card">
+            <div class="item-image">
+                <img src="./public/assets/img/JavaScript-logo.png" width="100px" alt="JS logo"/>
+            </div>
+            <div class="item-text">
+                <p>В последнее время пишу на JS/TS, в ближайшее время было бы не плохо освоить какой-нибудь фреймворк :P</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="item-image">
+                <img src="./public/assets/img/elma.png" width="100px" alt="ELMA logo"/>
+            </div>
+            <div class="item-text">
+                <p>А вообще, занимаюсь внедрением BPM-системы ELMA. Знаю как ELMA3/4, так и ELMA365.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="item-image">
+                <img src="./public/assets/img/sql_logo.png" width="150px" alt="SQL logo"/>
+            </div>
+            <div class="item-text">
+                <p>Кроме этого неплохо знаю SQL. Был опыт настройки и администрирования различных СУБД (PostgreSQL, MS SQL).</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="item-image">
+                <img src="./public/assets/img/linux_logo.png" width="100px" alt="linux logo"/>
+            </div>
+            <div class="item-text">
+                <p>Люблю Linux, не боюсь терминала) Душа больше лежит к Deb-дистрибутивам.</p>
+            </div>
         </div>
     </div>
 
     <div class="footerContainer">
-        
+        <div class="block">
+            © Балханаков Владимир, 2022
+        </div>
+
     </div>
 </body>
+
 </html>
