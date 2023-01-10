@@ -1,0 +1,30 @@
+.card {
+    margin: 1em;
+    width: 300px;
+    min-height: 380px;
+    border-style: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px #ccc;
+    transition: 0.45s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px #AED6F1;
+}
+
+.card .item-image {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.card .item-text {
+    text-align: justify;
+    vertical-align: middle;
+    font-family: 'SFNS Display Thin';
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    height: 100%;
+    font-size:20px;
+}
