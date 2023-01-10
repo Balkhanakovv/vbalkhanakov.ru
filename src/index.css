@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'SFNS Display Thin';
+  src: url('./Assets/Fonts/sfns_display_thin.eot');
+  src: url('./Assets/Fonts/sfns_display_thin.eot?#iefix') format('embedded-opentype'),
+      url('./Assets/Fonts/sfns_display_thin.woff2') format('woff2'),
+      url('./Assets/Fonts/sfns_display_thin.woff') format('woff'),
+      url('./Assets/Fonts/sfns_display_thin.ttf') format('truetype'),
+      url('./Assets/Fonts/sfns_display_thin.svg#sfns_display_thin') format('svg');
+}
+
+html,
+body {
+    margin: 0;
+    font-size: 17px;
+}

@@ -1,0 +1,11 @@
+.subtitle {
+    text-align: center;
+    margin: 1em;
+}
+
+.subtitle h3 {
+    font-family: 'SFNS Display Thin';
+    color: #333;
+    font-size: 3em;
+    font-weight: bolder;
+}

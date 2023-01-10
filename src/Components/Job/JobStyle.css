@@ -1,0 +1,47 @@
+@media (max-width: 710px) {
+    .note {
+        font-family: 'SFNS Display Thin';
+        width: 450px;
+        padding: 1em;
+        text-align: center;
+    }
+}
+
+.contentJobs {
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contentJobsDark {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #eee;
+}
+
+.note {
+    font-family: 'SFNS Display Thin';
+    width: 450px;
+    padding: 1em;
+}
+
+.note .title {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.note .position {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.noteImg {
+    margin: auto 0 auto 0.5em;
+}
