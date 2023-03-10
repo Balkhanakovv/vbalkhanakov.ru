@@ -2,6 +2,7 @@ import HeaderBlock from "./Components/HeaderBlock/HeaderBlock";
 import SkillsBlock from "./Components/SkillsBlock/SkillsBlock";
 import JobsBlock from "./Components/JobsBlock/JobsBlock";
 import Education from "./Components/Education/Education";
+import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 
 import education_img from "./Assets/Images/sibsutis_photo.png"
@@ -23,7 +24,8 @@ function App() {
         imgPath={education_img}
         alt="education" 
       />
-      <Footer />
+      <About/>
+      <Footer/>
     </div>
   );
 }

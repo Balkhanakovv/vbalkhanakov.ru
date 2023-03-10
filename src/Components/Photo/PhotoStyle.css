@@ -1,0 +1,11 @@
+.circle-image {
+    border: solid;
+    border-color: #fff;
+    border-width: 10px;
+    border-radius: 110px;
+    width: 200px;
+    height: 200px;
+    z-index: 1001;
+    position: relative;
+    top: 6.5em;
+}
