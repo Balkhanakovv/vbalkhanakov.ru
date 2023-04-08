@@ -1,6 +1,12 @@
+import Navigation from "../Components/Navigation/Navigation";
+import InWork from "../Components/InWork/inWork";
+
 function Demos() {
     return (
-        <div>Hello on Demos' page</div>
+        <div>
+            <Navigation />
+            <InWork />
+        </div>
     )
 }
 

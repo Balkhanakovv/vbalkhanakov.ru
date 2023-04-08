@@ -1,6 +1,12 @@
+import Navigation from "../Components/Navigation/Navigation";
+import InWork from "../Components/InWork/inWork";
+
 function Apps() {
     return (
-        <div>Hello on Apps' page</div>
+        <div>
+            <Navigation />
+            <InWork />
+        </div>
     )
 }
 
