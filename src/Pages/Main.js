@@ -6,13 +6,25 @@ import Education from "../Components/Education/Education";
 import About from "../Components/About/About";
 import Footer from "../Components/Footer/Footer";
 
-import education_img from "../Assets/Images/sibsutis_photo.png"
+import header_img from '../Assets/Images/header_img.gif';
+import education_img from "../Assets/Images/sibsutis_photo.png";
+
+const headerStyle = {
+  background: "#eee"
+}
+
+const headerStrings = ["Меня зовут Балханаков Владимир", " и это мой сайт резюме"];
 
 function Main() {
   return (
     <div>
       <Navigation />
-      <HeaderBlock />
+      <HeaderBlock 
+        header_img={header_img}
+        style={headerStyle}
+        h1="Привет"
+        p={headerStrings}
+      />
       <SkillsBlock />
       <JobsBlock />
       <Education 
