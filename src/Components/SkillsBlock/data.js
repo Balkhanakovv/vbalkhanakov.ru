@@ -3,19 +3,19 @@ export const values = [
         id: "7eb57a70-d5df-11ed-afa1-0242ac120002",
         imgPath: require('../../Assets/Images/Csharp_Logo.png'),
         alt: "C#",
-        description: ".NET - мое основное направлние. Знаю как сам язык, так и фреймворки, с которыми он чаще всего используется. В частности EntityFramework и ASP."
+        description: ".NET - одно из направлений моей деятельности. Работаю с фреймворками ASP и EntityFramework. Разработка приложений для веба и десктопа."
     },
     {
         id: "7a46180a-d5df-11ed-afa1-0242ac120002",
         imgPath: require('../../Assets/Images/JavaScript-logo.png'),
         alt: "JS",
-        description: "В последнее время пишу на JS/TS, в ближайшее время было бы не плохо освоить какой-нибудь фреймворк :P"
+        description: "Разработка веб-приложений на JS/TS. Знаком с React."
     },
     {
         id: "74602c00-d5df-11ed-afa1-0242ac120002",
         imgPath: require('../../Assets/Images/elma.png'),
         alt: "elma",
-        description: "А вообще, занимаюсь внедрением BPM-системы ELMA. Знаю как ELMA3/4, так и ELMA365."
+        description: "Настройка и разработка решений на базе ELMA3/4, ELMA365. Разработка модулей и интеграций."
     },
     {
         id: "6b29e4d2-d5df-11ed-afa1-0242ac120002",
@@ -27,6 +27,6 @@ export const values = [
         id: "5935df24-d5df-11ed-afa1-0242ac120002",
         imgPath: require('../../Assets/Images/linux_logo.png'),
         alt: "linux",
-        description: "Люблю Linux, не боюсь терминала) Душа больше лежит к Deb-дистрибутивам."
+        description: "Администрирование linux-серверов. Приемущественно debian-based. Администрирование k8s-кластеров."
     }
 ];

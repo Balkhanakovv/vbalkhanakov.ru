@@ -18,7 +18,7 @@ function Footer() {
                         <img src={github_logo} alt="github"/>
                     </a>
                 </div>
-                <p>© Балханаков Владимир, 2023</p>
+                <p>© Балханаков Владимир, {new Date().getFullYear()}</p>
             </div>
 
         </div>
